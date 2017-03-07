@@ -1,0 +1,12 @@
+<h3>
+  Wyszukiwarka
+</h3>
+<form action="">
+  <input
+    #phrase
+    (keyup.enter)="search(phrase.value)"
+    placeholder="Wpisz tytuł filmu"
+    type="search">
+</form>
+
+<app-video-list [videos]="videos"></app-video-list>

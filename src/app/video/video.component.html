@@ -1,0 +1,7 @@
+<div *ngIf="video">
+  <h4>{{ video.title }}</h4>
+  <video controls [src]="video.url" [poster]="video.thumb"></video>
+  <p>{{video.description}}</p>
+</div>
+
+

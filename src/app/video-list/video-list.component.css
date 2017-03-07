@@ -1,0 +1,14 @@
+video {
+  width: 300px;
+  height: 200px;
+}
+
+li {
+  width: 30%;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+p {
+  width: 80%;
+}
